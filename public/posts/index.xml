@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on CS Portfolio</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Projects on CS Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 May 2026 22:26:00 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bluetooth Low Energy Scanner</title>
+      <link>http://localhost:1313/posts/ble/</link>
+      <pubDate>Mon, 18 May 2026 22:26:00 -0600</pubDate>
+      <guid>http://localhost:1313/posts/ble/</guid>
+      <description>&lt;p&gt;Android app that scans nearby BLE devices, displays RSSI strength, supports background scanning, and notifies users when beacons are in range.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/images/ble_app.jpg&#34; alt=&#34;Bluetooth Low Energy Scanner App&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/cht-au/ble-background-scan&#34;&gt;View GitHub Page&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>FlightBowl</title>
+      <link>http://localhost:1313/posts/flightbowl/</link>
+      <pubDate>Mon, 18 May 2026 22:26:00 -0600</pubDate>
+      <guid>http://localhost:1313/posts/flightbowl/</guid>
+      <description>&lt;p&gt;A flight booking and management system for the Notre Dame Marching Band, coordinating travel for football bowl games and managing group flight logistics.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/cht-au/FlightBowl&#34;&gt;View GitHub Page&lt;/a&gt; | &lt;a href=&#34;https://drive.google.com/file/d/1UxpI7Iy42dyAcpvjuFsoy0TV7NzsaWTM/view?usp=sharing&#34;&gt;Watch Our Demo Video!&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lover Boy&#39;s Closet</title>
+      <link>http://localhost:1313/posts/lover-boys/</link>
+      <pubDate>Mon, 18 May 2026 22:26:00 -0600</pubDate>
+      <guid>http://localhost:1313/posts/lover-boys/</guid>
+      <description>&lt;p&gt;Lover Boy Closet aims to develop an autonomous AI system as a daily outfit recommender. We implemented and compared multiple recommender architectures to analyze accuracy given contextual factors such as weather, season, and events.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/cht-au/daily-outfit-recommender&#34;&gt;View GitHub Page&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Underwater Fish Tracker</title>
+      <link>http://localhost:1313/posts/iishi/</link>
+      <pubDate>Mon, 18 May 2026 22:26:00 -0600</pubDate>
+      <guid>http://localhost:1313/posts/iishi/</guid>
+      <description>&lt;p&gt;MATLAB-based motion tracking system using contrast enhancement and blob analysis to detect and track fish in video.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/images/fish_tracking.png&#34; alt=&#34;Underwater Fish Tracker&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/cht-au/Ishii-Lab-Image-Processing&#34;&gt;View GitHub Page&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Distributed Neural Network</title>
+      <link>http://localhost:1313/posts/distributed-neural-network/</link>
+      <pubDate>Mon, 18 May 2026 22:22:38 -0600</pubDate>
+      <guid>http://localhost:1313/posts/distributed-neural-network/</guid>
+      <description>&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;This is where I write about my project using normal &lt;strong&gt;Markdown&lt;/strong&gt; syntax.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Implemented lexical analysis&lt;/li&gt;&#xA;&lt;li&gt;Wrote parser in Go&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

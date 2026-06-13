@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Bluetooth Low Energy Scanner | Chau Ta</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Android app that scans nearby BLE devices, displays RSSI strength, supports background scanning, and notifies users when beacons are in range.">
+    <meta name="generator" content="Hugo 0.161.1">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    
+
+    <link rel="stylesheet" href="/ananke/css/main.fe543ec729f225f1a33caed07775c832a416476900d82ba51765d6ead9de6758.css" integrity="sha256-/lQ&#43;xynyJfGjPK7Qd3XIMqQWR2kA2CulF2XW6tneZ1g=" crossorigin="anonymous">
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://cht-au.github.io/projects/ble/">
+    
+
+    
+    
+    <meta property="og:url" content="https://cht-au.github.io/projects/ble/">
+  <meta property="og:site_name" content="Chau Ta">
+  <meta property="og:title" content="Bluetooth Low Energy Scanner">
+  <meta property="og:description" content="Android app that scans nearby BLE devices, displays RSSI strength, supports background scanning, and notifies users when beacons are in range.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2025-05-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-05-01T00:00:00+00:00">
+    <meta property="article:tag" content="Android Studio">
+    <meta property="article:tag" content="Kotlin">
+    <meta property="article:tag" content="BLE">
+    <meta property="article:tag" content="Mobile App">
+
+  <meta itemprop="name" content="Bluetooth Low Energy Scanner">
+  <meta itemprop="description" content="Android app that scans nearby BLE devices, displays RSSI strength, supports background scanning, and notifies users when beacons are in range.">
+  <meta itemprop="datePublished" content="2025-05-01T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-05-01T00:00:00+00:00">
+  <meta itemprop="wordCount" content="209">
+  <meta itemprop="keywords" content="Android Studio,Kotlin,BLE,Mobile App">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Bluetooth Low Energy Scanner">
+  <meta name="twitter:description" content="Android app that scans nearby BLE devices, displays RSSI strength, supports background scanning, and notifies users when beacons are in range.">
+
+      
+      
+    
+	
+  </head><body class="ma0 avenir bg-near-white production is-page is-page page-ble">
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Chau Ta
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/" title="Home page">
+              Home
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/projects/" title="Projects page">
+              Projects
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="https://github.com/cht-au" title="GitHub page">
+              GitHub
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/resume.pdf" title="Resume page">
+              Resume
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+
+  <article class="page-ble flex-l mw7 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100"><aside class="instapaper_ignoref b helvetica tracked ttu">
+    Projects
+</aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Bluetooth Low Energy Scanner</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-05-01T00:00:00Z">May 1, 2025</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><p><a href="https://github.com/cht-au/ble-background-scan"><img src="https://img.shields.io/badge/GitHub-Repository-blue?logo=github" alt="GitHub"></a></p>
+<h2 id="overview">Overview</h2>
+<p>This project investigates the capabilities of Bluetooth Low Energy (BLE) scanning on Android devices. The app explores how reliably and consistently Android devices can detect and log nearby Bluetooth signals. The bigger goal of the project is to see how Bluetooth can be leveraged to support research on human interaction and proximinity tracking.</p>
+<h2 id="challenges-and-actions">Challenges and Actions</h2>
+<p>To efficiently track interaction, the app required a mechanism to scan for BLE devices continuously, even  when the phone is locked or the app is running in the background.</p>
+<p>I first delved into Android Studio Developer  documentation to understand BLE scanning, scanning filters, and permission handling. Next, I developed a persistent background service, collected data from BLE packets, and displayed data to the user.</p>
+<h2 id="results">Results</h2>
+<p>The project demonstrates that Android devices can serve as reliable proximity trackers. The final app includes:</p>
+<ul>
+<li><strong>Continuous Background Scanning</strong></li>
+<li><strong>Realtime Received Signal Strength Indicator (RSSI) Graphing</strong></li>
+<li><strong>Promiximity Notification</strong> when a user comes close to target beacons</li>
+</ul>
+<p>The most interesting thing I learned is that the app will work even if it is off after all permission all granted. Any attempt to shut down the app on the phone will cause the app to restart itself. The only real way to stop the app is to uninstall it.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/android-studio/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Android Studio</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/kotlin/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Kotlin</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/ble/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">BLE</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/mobile-app/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Mobile App</a>
+   </li>
+  
+</ul>
+
+      
+    </div></article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://cht-au.github.io/" >
+    &copy;  Chau Ta 2026 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
+
+
+

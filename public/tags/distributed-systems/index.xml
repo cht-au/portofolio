@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Distributed Systems on Chau Ta</title>
+    <link>https://cht-au.github.io/tags/distributed-systems/</link>
+    <description>Recent content in Distributed Systems on Chau Ta</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cht-au.github.io/tags/distributed-systems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Distributed Neural Network</title>
+      <link>https://cht-au.github.io/projects/distributed-neural-network/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://cht-au.github.io/projects/distributed-neural-network/</guid>
+      <description>A distributed neural network training system utilizing an elastic, fault-tolerant Parameter Server architecture over gRPC.</description>
+    </item>
+  </channel>
+</rss>

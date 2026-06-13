@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kotlin on Chau Ta</title>
+    <link>https://cht-au.github.io/tags/kotlin/</link>
+    <description>Recent content in Kotlin on Chau Ta</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cht-au.github.io/tags/kotlin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bluetooth Low Energy Scanner</title>
+      <link>https://cht-au.github.io/projects/ble/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://cht-au.github.io/projects/ble/</guid>
+      <description>Android app that scans nearby BLE devices, displays RSSI strength, supports background scanning, and notifies users when beacons are in range.</description>
+    </item>
+  </channel>
+</rss>

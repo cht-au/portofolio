@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Underwater Fish Tracker | Chau Ta</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="A MATLAB-based motion tracking pipeline using edge detection, contrast enhancement, and blob analysis to track fish behaviors through underwater obstructions.">
+    <meta name="generator" content="Hugo 0.161.1">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    
+
+    <link rel="stylesheet" href="/ananke/css/main.fe543ec729f225f1a33caed07775c832a416476900d82ba51765d6ead9de6758.css" integrity="sha256-/lQ&#43;xynyJfGjPK7Qd3XIMqQWR2kA2CulF2XW6tneZ1g=" crossorigin="anonymous">
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://cht-au.github.io/projects/iishi/">
+    
+
+    
+    
+    <meta property="og:url" content="https://cht-au.github.io/projects/iishi/">
+  <meta property="og:site_name" content="Chau Ta">
+  <meta property="og:title" content="Underwater Fish Tracker">
+  <meta property="og:description" content="A MATLAB-based motion tracking pipeline using edge detection, contrast enhancement, and blob analysis to track fish behaviors through underwater obstructions.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2025-07-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-07-01T00:00:00+00:00">
+    <meta property="article:tag" content="MATLAB">
+    <meta property="article:tag" content="Image Processing">
+    <meta property="article:tag" content="Computer Vision">
+    <meta property="article:tag" content="Research">
+
+  <meta itemprop="name" content="Underwater Fish Tracker">
+  <meta itemprop="description" content="A MATLAB-based motion tracking pipeline using edge detection, contrast enhancement, and blob analysis to track fish behaviors through underwater obstructions.">
+  <meta itemprop="datePublished" content="2025-07-01T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-07-01T00:00:00+00:00">
+  <meta itemprop="wordCount" content="311">
+  <meta itemprop="keywords" content="MATLAB,Image Processing,Computer Vision,Research">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Underwater Fish Tracker">
+  <meta name="twitter:description" content="A MATLAB-based motion tracking pipeline using edge detection, contrast enhancement, and blob analysis to track fish behaviors through underwater obstructions.">
+
+      
+      
+    
+	
+  </head><body class="ma0 avenir bg-near-white production is-page is-page page-iishi">
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Chau Ta
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/" title="Home page">
+              Home
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/projects/" title="Projects page">
+              Projects
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="https://github.com/cht-au" title="GitHub page">
+              GitHub
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/resume.pdf" title="Resume page">
+              Resume
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+
+  <article class="page-iishi flex-l mw7 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100"><aside class="instapaper_ignoref b helvetica tracked ttu">
+    Projects
+</aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Underwater Fish Tracker</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-07-01T00:00:00Z">July 1, 2025</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><p>🔗 <a href="https://github.com/cht-au/Ishii-Lab-Image-Processing">View GitHub Page</a></p>
+<h2 id="-the-challenge">📌 The Challenge</h2>
+<p>Given an underwater video of feeding fish, our research goal was to capture and analyze the hunger levels of the fish. Tracking objects in underwater environments presents unique computer vision challenges:</p>
+<ol>
+<li><strong>Low Light:</strong> Less light hits the camera sensor deep in the water.</li>
+<li><strong>Medium Distortion:</strong> Light undergoes distortion as it travels through a water medium before reaching the lens.</li>
+<li><strong>Physical Obstructions:</strong> In our specific footage, a physical net obscured the fish, interfering with standard tracking algorithms.</li>
+</ol>
+<hr>
+<h2 id="-the-image-processing-pipeline">🛠️ The Image Processing Pipeline</h2>
+<p>To tackle these challenges, we broke the problem down into three sequential phases:</p>
+<h3 id="1-image-enhancement">1. Image Enhancement</h3>
+<p>We experimented with several methods of enhancing the underwater footage across different color spaces and settings. While we ultimately settled on converting the images to high-contrast black and white for consistency, there are likely still many alternative ways to optimize the raw image data.
+<img src="/images/ishii_1.png" alt="Image enhancement"></p>
+<h3 id="2-removing-the-net">2. Removing the Net</h3>
+<p>We managed to isolate and remove the obscuring net by leveraging MATLAB’s <strong>edge detection</strong> and <strong>image dilation</strong> techniques, effectively filtering out the grid lines of the net from the background.
+<img src="/images/ishii_2.png" alt="Net removal"></p>
+<h3 id="3-data-extraction--tracking">3. Data Extraction &amp; Tracking</h3>
+<p>Following net removal and enhancement, we used MATLAB’s built-in computer vision functions to isolate the fish and generate their bounding boxes. From there, we implemented a naive position tracking algorithm to track individual fish across frames, allowing us to calculate and measure their velocities.
+<img src="/images/ishii_3.png" alt="Net removal">
+<img src="/images/ishii_4.png" alt="Net removal"></p>
+<hr>
+<h2 id="-results--future-challenges">🚀 Results &amp; Future Challenges</h2>
+<p>We successfully created a complete pipeline capable of taking raw underwater video with net obstructions and tracking the fish with <strong>~80% accuracy</strong>.</p>
+<p>While we extracted meaningful motion data from the footage, we encountered a major domain-specific challenge: the video only provides usable activity data during actual feeding windows, remaining empty the rest of the time. The ongoing challenge is finding ways to extract meaningful data to determine fish hunger solely from these brief feeding intervals.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/matlab/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">MATLAB</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/image-processing/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Image Processing</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/computer-vision/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Computer Vision</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/research/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Research</a>
+   </li>
+  
+</ul>
+
+      
+    </div></article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://cht-au.github.io/" >
+    &copy;  Chau Ta 2026 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
+
+
+

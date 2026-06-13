@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logistics on Chau Ta</title>
+    <link>http://localhost:1313/tags/logistics/</link>
+    <description>Recent content in Logistics on Chau Ta</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/logistics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Distributed Neural Network</title>
+      <link>http://localhost:1313/projects/distributed-neural-network/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/distributed-neural-network/</guid>
+      <description>A distributed neural network training system with Parameter server and node servers.</description>
+    </item>
+    <item>
+      <title>FlightBowl</title>
+      <link>http://localhost:1313/projects/flightbowl/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/flightbowl/</guid>
+      <description>A flight booking and management system for the Notre Dame Marching Band, coordinating travel for football bowl games and managing group flight logistics.</description>
+    </item>
+  </channel>
+</rss>

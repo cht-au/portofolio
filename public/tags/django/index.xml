@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Django on Chau Ta</title>
+    <link>http://localhost:1313/tags/django/</link>
+    <description>Recent content in Django on Chau Ta</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/django/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WorNDly</title>
+      <link>http://localhost:1313/projects/worndly/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/worndly/</guid>
+      <description>Worlde clone with additional interactive APIs</description>
+    </item>
+  </channel>
+</rss>

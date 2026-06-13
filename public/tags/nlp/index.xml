@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NLP on Chau Ta</title>
+    <link>https://cht-au.github.io/tags/nlp/</link>
+    <description>Recent content in NLP on Chau Ta</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 May 2026 18:08:17 -0600</lastBuildDate>
+    <atom:link href="https://cht-au.github.io/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WhispBERT</title>
+      <link>https://cht-au.github.io/projects/whispbert/</link>
+      <pubDate>Thu, 21 May 2026 18:08:17 -0600</pubDate>
+      <guid>https://cht-au.github.io/projects/whispbert/</guid>
+      <description>A BERT-based multilabel classifier trained on anonymous social media posts to flag sensitive and high-risk mental health content.</description>
+    </item>
+  </channel>
+</rss>

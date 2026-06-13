@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Chau Ta</title>
+    <link>https://cht-au.github.io/categories/projects/</link>
+    <description>Recent content in Projects on Chau Ta</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cht-au.github.io/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Distributed Neural Network</title>
+      <link>https://cht-au.github.io/projects/distributed-neural-network/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://cht-au.github.io/projects/distributed-neural-network/</guid>
+      <description>A distributed neural network training system utilizing an elastic, fault-tolerant Parameter Server architecture over gRPC.</description>
+    </item>
+    <item>
+      <title>FlightBowl</title>
+      <link>https://cht-au.github.io/projects/flightbowl/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://cht-au.github.io/projects/flightbowl/</guid>
+      <description>A flight booking and management system for the Notre Dame Marching Band, coordinating travel for football bowl games and managing group flight logistics.</description>
+    </item>
+    <item>
+      <title>Underwater Fish Tracker</title>
+      <link>https://cht-au.github.io/projects/iishi/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://cht-au.github.io/projects/iishi/</guid>
+      <description>A MATLAB-based motion tracking pipeline using edge detection, contrast enhancement, and blob analysis to track fish behaviors through underwater obstructions.</description>
+    </item>
+    <item>
+      <title>Bluetooth Low Energy Scanner</title>
+      <link>https://cht-au.github.io/projects/ble/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://cht-au.github.io/projects/ble/</guid>
+      <description>Android app that scans nearby BLE devices, displays RSSI strength, supports background scanning, and notifies users when beacons are in range.</description>
+    </item>
+  </channel>
+</rss>
