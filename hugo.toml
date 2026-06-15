@@ -1,4 +1,4 @@
-baseURL = 'https://cht-au.github.io/portfolio'
+baseURL = 'https://cht-au.github.io/'
 locale = 'en-us'
 title = 'Chau Ta'
 theme = 'ananke'
