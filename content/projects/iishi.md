@@ -25,21 +25,21 @@ To tackle these challenges, we broke the problem down into three sequential phas
 
 ### 1. Image Enhancement
 We experimented with several methods of enhancing the underwater footage across different color spaces and settings. While we ultimately settled on converting the images to high-contrast black and white for consistency, there are likely still many alternative ways to optimize the raw image data.
-![Image enhancement](/images/ishii_1.png)
+![Image enhancement](images/ishii_1.png)
 
 
 
 ### 2. Removing the Net
 We managed to isolate and remove the obscuring net by leveraging MATLAB’s **edge detection** and **image dilation** techniques, effectively filtering out the grid lines of the net from the background.
-![Net removal](/images/ishii_2.png)
+![Net removal](images/ishii_2.png)
 
 
 
 
 ### 3. Data Extraction & Tracking
 Following net removal and enhancement, we used MATLAB’s built-in computer vision functions to isolate the fish and generate their bounding boxes. From there, we implemented a naive position tracking algorithm to track individual fish across frames, allowing us to calculate and measure their velocities.
-![Net removal](/images/ishii_3.png)
-![Net removal](/images/ishii_4.png)
+![Net removal](images/ishii_3.png)
+![Net removal](images/ishii_4.png)
 
 ---
 

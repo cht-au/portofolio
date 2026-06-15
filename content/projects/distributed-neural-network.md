@@ -25,7 +25,7 @@ To solve this, we created a distributed ML training system using a **Parameter S
 * **Fault Tolerance:** The architecture can handles instances worker or server crashes and restarts itself.
 * **Parallel Training:** Improve training times through data partitioning across available nodes.
 
-![Architecture Overview](/images/proj_dnn_overview.png)
+![Architecture Overview](images/proj_dnn_overview.png)
 
 
 ---
